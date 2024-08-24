@@ -6,3 +6,28 @@ html {
 *::after {
     box-sizing: inherit;
 }
+body{
+    margin: 0;
+    font-family: 'Roboto';
+}
+/* Header styling */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 1rem 200px;
+    gap: 30px;
+    background-color: #1f2987;
+    color: white;
+    
+}
+.header .logo {
+    font-size: x-large;
+    font-weight: bold;
+}
+.header a {
+    text-decoration: none;
+    color: white;
+}
+.link.first-link {
+    margin-left: auto;
+}
