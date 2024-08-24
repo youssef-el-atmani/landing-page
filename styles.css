@@ -31,3 +31,53 @@ body{
 .link.first-link {
     margin-left: auto;
 }
+
+/* hero part */
+.hero-part {
+    background-color: #1f2987;
+    color: white;
+    display: flex;
+    gap: 2rem;
+    padding: 4rem 200px;
+}
+.hero-part h1 {
+    margin: 0;
+}
+.hero-part .text-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.hero-part button {
+    background-color: #3882f6;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 2px rgba(255, 255, 255, 0) solid;
+    color: white;
+    font-weight: bold;
+}
+
+.hero-part button:hover {
+    cursor: pointer;
+    box-shadow: white 1px 1px 5px;
+}
+.hero-part button:active {
+    border: 2px solid black;
+}
+
+.hero-part .text-part,
+.hero-part .img-part {
+    flex: 1;
+}
+
+.img-part {
+    display: flex;
+    align-items: center;
+}
+
+.img-part img {
+    width: 100%;
+    min-width: 200px;
+}
