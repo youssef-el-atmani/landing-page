@@ -130,3 +130,37 @@ body{
     margin-left: auto;
     margin-right: 8rem;
 }
+/* Call action part */
+.call-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 200px;
+    background-color: #3882f6;
+    padding: 30px 100px;
+    border-radius: 10px;
+}
+.call-action p {
+    color: white;
+    margin: 0;
+}
+.call {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.call-action button {
+    background-color: #3882f6;
+    border-radius: 7px;
+    border: white solid 2px;
+    padding: 4px 15px;
+    color: #fff;
+    font-weight: bold;
+}
+.call-action button:hover {
+    cursor: pointer;
+    color: #3882f6;
+    background-color: white;
+}
+.call-action button:active {
+    box-shadow: white 0 0 5px;
+}
