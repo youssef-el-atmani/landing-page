@@ -107,3 +107,26 @@ body{
     gap: 2rem;
     margin-bottom: 4rem;
 }
+/* The quote part */
+.quote-part {
+    background-color: #e5e7eb;
+    height: 300px;
+    padding: 0 200px;
+    text-align: center;
+    align-content: center;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 0;
+    color: #1f2937;
+    margin-bottom: 0;
+}
+.quoter {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 8rem;
+}
